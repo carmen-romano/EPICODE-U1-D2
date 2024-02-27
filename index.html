@@ -19,34 +19,52 @@
           <ul>
             <li><a href="#">Home</a></li>
             <li><a href="#articoli">Articoli</a></li>
-            <li><a href="#lavoraConNoi">Lavora con noi</a></li>
+            <li><a href="#">Lavora con noi</a></li>
           </ul>
         </nav>
       </div>
     </header>
-    <h1>Epicode - Il blog dei developers</h1>
+    <h1 id="titoloPagina">Il blog dei developers</h1>
     <main>
       <section id="articoli">
         <article id="#articolo">
           <h2>Come creare un template per i post</h2>
           <cite> di Mario Rossi -</cite>
-          <time datetime="2020-15-20">pubblicato il 25-10-2020</time>
           <p>
-            La prima cosa da fare è suddividere in blocchi logici la pagina,
-            identificando le parti comuni da applicare a tutte le pagine Le
-            varie aree saranno quindi suddivise in: Contenuti di intestazione
-            del tag <em> &lt; header&gt; </em>Contenuti centrali variabili del
-            tag <em> &lt;main&gt;</em>(corpo principale) Contenuti di fine
-            pagina comuni, da inserire nel tag
-            <em> &lt;footer&gt; </em>Formattazione del codice Il testo
-            dell'articolo dovrà essere formattato per identificare tutte le
-            parti da selezionare con i CSS. Perciò i passi saranno: Progettare
-            il markup assegnando ad ogni specifico testo il tag appropriato
-            Scrivere l'HTML dai tag esterni a quelli interni e dall'alto verso
-            il basso Applicare gli stili CSS [14:07] L'applicazione di stili CSS
-            è cresciuta negli anni fino a raggiungere la diffusione pressoché
-            totale.
-          </p>
+          <time datetime="2020-15-20">pubblicato il 25-10-2020</time>
+          La prima cosa da fare è suddividere in blocchi logici la pagina,
+          identificando le parti comuni da applicare a tutte le pagine Le
+          varie aree saranno quindi suddivise in: </p>
+          <ul>
+            <ol> <strong>
+              Contenuti di intestazione del tag
+              <em> &lt; header&gt; </em>
+            </strong>
+            </ol>
+            <ol>
+              <strong>
+              Contenuti centrali variabili del tag
+              <em> &lt;main&gt;</em
+              > </strong>
+            </ol>
+            <ol>
+              <strong>
+              Contenuti di fine pagina comuni, da inserire nel tag
+              <em> &lt;footer&gt; </em></strong>
+            </ol>
+          </ul>
+    
+           <h4> Formattazione del codice</h4>
+            <p>Il testo dell'articolo dovrà essere
+            formattato per identificare tutte le parti da selezionare con i CSS.
+            Perciò i passi saranno: </p>
+            <ul> 
+              <ol> <strong>Progettare il markup assegnando ad ogni
+            specifico testo il tag appropriato</strong> </ol>
+             <ol><strong>Scrivere l'HTML dai tag esterni a
+            quelli interni e dall'alto verso il basso</strong></ol>
+            <ol><strong> Applicare gli stili CSS</strong>
+            </ol> 
         </article>
       </section>
       <section id="tabella">
@@ -91,7 +109,7 @@
           Un test di validazione potrà essere fatto tramite il tool online di
           <a href="https://www.google.it/">Google</a> dedicato allo scopo. Una
           volta ottimizzato il tutto, avremo raggiunto il nostro obiettivo ed
-          essere stati dei veri developers come loro:
+          essere stati dei veri developers come loro​👇
         </p>
         <iframe
           width="560"
@@ -104,10 +122,9 @@
         ></iframe>
       </section>
       <section id="form">
-        <h2>
-          Vuoi rimanere aggiornato su altre novità del blog? Iscriviti alla
-          nostra newsletter:
-        </h2>
+        <h2>​📣Vuoi rimanere aggiornato su altre novità del blog?​📣</h2>
+
+        <p>👇​ Iscriviti alla nostra newsletter 👇​</p>
         <form>
           <label for="nome"> Nome </label>
           <input type="text" id="nome" required placeholder="Mario" />
@@ -123,22 +140,22 @@
       <aside>
         <section id="articoliCorrelati">
           <h4>Articoli Correlati</h4>
-          <article>
+          <div>
             <h4>Validare il codice HTML</h4>
             <p>Categoria: develop</p>
             <time datetime="2020-18-09">Data: 18-09-2020</time>
-          </article>
-          <article>
+          </div>
+          <div>
             <h4>Correggere la sintassi</h4>
             <p>Categoria: develop</p>
             <time datetime="2020-16-09">Data: 16-9-2020</time>
-          </article>
+          </div>
 
-          <article>
+          <div>
             <h4>Meno Kb nella pagina</h4>
             <p>Categoria: ottimizzazione</p>
             <time datetime="2020-30-09">Data: 30-9-2020</time>
-          </article>
+          </div>
         </section>
       </aside>
     </main>
